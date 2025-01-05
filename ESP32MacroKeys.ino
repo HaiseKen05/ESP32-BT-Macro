@@ -3,10 +3,10 @@
 
 BleKeyboard bleKeyboard("ESP32 Keyboard", "ESP32", 100);
 
-#define BUTTON_PIN_WIN_E 27         
-#define BUTTON_PIN_TASK_MANAGER 14       
-#define BUTTON_PIN_SCREENSHOT 26
-#define BUTTON_PIN_ALT_F4 25
+#define BUTTON_PIN_WIN_E 27  // Open File Explorer
+#define BUTTON_PIN_TASK_MANAGER 14  // Open Task Manager
+#define BUTTON_PIN_SCREENSHOT 26  // Take a Screenshot
+#define BUTTON_PIN_ALT_F4 25  // End Task on current application
 
 const int debounceDelay = 250;
 
